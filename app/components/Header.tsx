@@ -67,7 +67,7 @@ const Header = () => {
                         duration: 0.6,
                         delay: 1.2
                     }}
-                    href="/sample-resume.pdf" className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2' download>my resume
+                    href="/Mudassar-Sultan.pdf" className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2' download>my resume
                     <Image src={assets.download_icon} alt='download_icon' className='w-4'></Image>
                 </motion.a>
             </div>

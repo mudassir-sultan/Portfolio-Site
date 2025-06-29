@@ -6,10 +6,10 @@ import { motion } from "motion/react"
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
-    const onSubmit = async (event) => {
+    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         setResult("Sending....");
-        const formData = new FormData(event.target);
+        const formData = new FormData(event.target as HTMLFormElement);
 
         formData.append("access_key", "064c935a-1886-40de-9380-e194d104d217");
 
@@ -22,7 +22,7 @@ const Contact = () => {
 
         if (data.success) {
             setResult("Form Submitted Successfully");
-            event.target.reset();
+            (event.target as HTMLFormElement).reset();
         } else {
             console.log("Error", data);
             setResult(data.message);
