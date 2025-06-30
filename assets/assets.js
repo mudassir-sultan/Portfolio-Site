@@ -144,19 +144,19 @@ export const workData = [
     {
         title: 'Keico',
         description: 'The KeiCo curates premium wellness and lifestyle goods—saunas, hot tubs, gifts, and décor—with bespoke bundles, free UK delivery.',
-        bgImage: '/thekeico.png',
+        bgImage: '/thekeico.jpeg',
         link: 'https://www.thekeico.com/'
     },
     {
         title: 'Goci',
         description: 'Goci is a women’s fashion brand offering trendy dresses, jackets, and more—designed in the Czech Republic with modern European style.',
-        bgImage: '/guci.png',
+        bgImage: '/guci.jpg',
         link: 'https://www.goci.cz/'
     },
     {
         title: 'Dimond Roofing',
         description: 'Dimond is a New Zealand-based provider of metal roofing and cladding products, offering durable, architectural solutions for both residential and commercial construction projects.',
-        bgImage: '/dimondRoofing.png',
+        bgImage: '/dimondRoofing.jpg',
         link: 'https://www.dimond.co.nz/',
     },
     {
@@ -168,7 +168,7 @@ export const workData = [
     {
         title: 'Fletcher Building',
         description: 'Fletcher Building is a leading New Zealand-based company providing construction services and building materials across Australasia.',
-        bgImage: '/fletcherbuilding.png',
+        bgImage: '/fletcherbuilding.jpg',
         link: 'https://fletcherbuilding.com/'
     },
     {
@@ -185,7 +185,7 @@ export const workData = [
     {
         title: 'Primary leap',
         description: 'PrimaryLeap offers educational worksheets and interactive resources for primary school children in the UK.',
-        bgImage: '/primary-leap.png',
+        bgImage: '/primary-leap.jpg',
         link: 'https://primaryleap.co.uk/'
     },
     {
@@ -197,7 +197,7 @@ export const workData = [
     {
         title: 'The sante',
         description: 'The Santé Company delivers premium Japanese matcha—retail and wholesale—by sourcing farm-to-cup ceremonial and culinary blends with flexible subscriptions and private-label options',
-        bgImage: '/thesantecompany.png',
+        bgImage: '/thesantecompany.jfif',
         link: 'https://thesantecompany.com/'
     },
     {
